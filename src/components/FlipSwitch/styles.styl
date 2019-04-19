@@ -1,0 +1,84 @@
+@import '~@/style/defaultTheme';
+
+$sizes = {
+  s: 1,
+  m: 2,
+  l: 3
+};
+
+.container
+  display: flex;
+  align-items: center;
+
+.flipswitch
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+.flipswitch input[type=checkbox]
+  display: none;
+
+.label
+  display: block;
+  border-radius: 50px;
+  overflow: hidden;
+  cursor: pointer;
+
+.inner
+  width: 200%;
+  margin-left: -100%;
+  -webkit-transition: margin .3s ease-in 0s;
+  -moz-transition: margin .3s ease-in 0s;
+  -ms-transition: margin .3s ease-in 0s;
+  -o-transition: margin .3s ease-in 0s;
+  transition: margin .3s ease-in 0s;
+
+.inner:before, .inner:after
+  float: left;
+  width: 50%;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+.inner:before
+  content: '';
+  background-color: $brandColor;
+
+.inner:after
+  content: '';
+  background-color: $colorGray;
+
+.switch
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: $bgColors[primary];
+  border-radius: 50%;
+  -webkit-transition: all .3s ease-in 0s;
+  -moz-transition: all .3s ease-in 0s;
+  -ms-transition: all .3s ease-in 0s;
+  -o-transition: all .3s ease-in 0s;
+  transition: all .3s ease-in 0s;
+
+.checkbox:checked + .label .inner
+  margin-left: 0;
+
+.checkbox:checked + .label .switch
+  right: 0;
+
+.title
+  padding-left: .5em;
+
+for $sizeName, $size in $sizes
+  .flipswitch.size-{$sizeName}
+    width: 24px * $size;
+
+    .inner:before, .inner:after
+      height: 14px * $size;
+
+    .switch
+      width: 10px * $size;
+      margin: 2px * $size;
+      right: 9px * $size;

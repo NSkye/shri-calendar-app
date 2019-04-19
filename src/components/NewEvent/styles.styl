@@ -1,0 +1,155 @@
+.inputWrapper
+  width: 100%;
+  position: relative;
+
+.nameInput
+  margin-top: 24px;
+  width: 100%;
+  border: none;
+  padding-bottom: 7px;
+  border-bottom: 2px solid #ffcc00;
+  outline: none;
+  font-size: 19px;
+
+.inputClose
+  cursor: pointer;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  opacity: .2;
+  border-radius: 50%;
+  right: 0;
+  bottom: 12px;
+  background-color: #000000;
+
+  &:before, &:after
+    content: '';
+    width: 10px;
+    height: 2px;
+    border-radius: 3px;
+    background: #fff;
+    position: absolute;
+
+  &:before
+    transform: rotate(45deg);
+    bottom: 6px;
+    right: 2px;
+
+  &:after
+    transform: rotate(-45deg);
+    bottom: 6px;
+    right: 2px;
+
+.title
+  margin-top: 26px;
+  margin-bottom: 4px;
+  opacity: .7;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #000000;
+
+.buttons
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+
+  & > button
+    margin-right: 5px;
+
+.dateInput, .timeInput
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, .2);
+  border-radius: 3px;
+  background-color: #ffffff;
+  padding: 7px 9px;
+  width: 95px;
+  box-sizing: border-box;
+  position: relative;
+
+.timeInput
+  width: 70px;
+
+  &[disabled]
+    background: rgba(0, 0, 0, .2);
+    opacity: .5;
+
+.datesGroup
+  .dateWrapper .dateInput
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+
+  .dateWrapper .timeInput
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+.dateWrapper
+  position: relative;
+  display: inline-block;
+
+.calendIcon
+  width: 11px;
+  height: 8px;
+  opacity: .3;
+  color: #000;
+  position: absolute;
+  right: 9px;
+  top: calc(50% - 8px / 2);
+
+.timeIcon
+  width: 14px;
+  height: 14px;
+  opacity: .3;
+  color: #000;
+  position: absolute;
+  right: 9px;
+  top: calc(50% - 14px / 2);
+
+.settingsItem
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  color: rgba(0, 0, 0, .4);
+  transition: color .2s;
+  font-size: 13px;
+  padding-top: 10px;
+  padding-right: 20px;
+
+  &:hover
+    color: rgba(0, 0, 0, .7);
+
+  .settingsItemIcon
+    margin-right: 7px;
+
+.button
+  font-family: 'Yandex Sans Text', Arial, sans-serif;
+  font-size: 13px;
+
+.eventDates
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+.attendeesInfo
+  padding-top: 1em;
+
+.tagIcon
+  color: #cccccc;
+
+.trashButton
+  cursor: pointer;
+  margin-left: auto;
+  padding: 0;
+  background-color: none;
+  border: none;
+  padding: 6px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0);
+
+  &:hover
+    .tagIcon
+      color: darken(#cccccc, 40%);
+
+    background: #e6e6e6;

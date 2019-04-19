@@ -1,0 +1,41 @@
+@import '~@/style/defaultTheme';
+
+.checkbox
+  position: relative;
+  width: 18px;
+  height: 18px;
+
+.checkboxInput
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+
+.checkboxLabel
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  border: 2px solid $lineColors[secondaryPale];
+
+.checked .checkboxLabel
+  border-color: $lineColors[secondary];
+
+.hovered .checkboxLabel
+  border-color: $lineColors[secondaryFaded];
+
+.hovered.checked .checkboxLabel
+  border-color: $lineColors[secondary];
+
+.check
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+
+.checked .check
+  opacity: 1;

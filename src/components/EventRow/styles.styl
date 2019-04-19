@@ -1,0 +1,43 @@
+.wrapper
+  padding: 6px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+
+  &:hover
+    background: #F0F0F0 //rgba(0, 0, 0, .2);
+
+  &.allDay
+    &:before
+      content: '';
+      width: 2px;
+      height: 100%;
+      top: 0;
+      background: #d8d8d8;
+      position: absolute;
+      left: 105px;
+
+.timeWrapper
+  width: 100px;
+  text-align: right;
+
+.titleWrapper
+  flex: 1;
+
+.dotWrapper
+  padding: 0 1em;
+
+.checkboxWrapper
+  padding-left: 1em;
+
+.allDayTitle
+  font-size: 14px;
+  font-weight: 300;
+  position: relative;
+  padding-right: 1em;
+  color: #666;

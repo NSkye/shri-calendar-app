@@ -1,0 +1,40 @@
+.scheduleHeader
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  height: 46px;
+
+  &::before
+    position: relative;
+
+.container
+  display: flex;
+  align-items: center;
+
+.button
+  line-height: inherit;
+
+.text
+  padding-left: 10px;
+  margin: 0;
+  font-size: 17px;
+
+.iconReverse
+  transform: rotate(180deg);
+
+.button
+  cursor: pointer;
+  color: rgba(0, 0, 0, .6);
+  transition: all .2s;
+  padding: 4px;
+
+  &:hover
+    color: rgba(0, 0, 0, .9);
+
+.weekToggle
+  margin-left: 10px;
+
+.back
+  cursor: pointer;
+  color: rgba(0, 0, 0, .9);

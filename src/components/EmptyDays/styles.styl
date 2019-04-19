@@ -1,0 +1,39 @@
+@import '~@/style/defaultTheme';
+
+.emptyDays
+  width: 100%;
+  padding: 6px 0;
+  box-sizing: border-box;
+  display: flex;
+  border-bottom: 1px solid $lineColors[secondaryPale];
+
+  &:last-child
+    border-bottom: none;
+
+.label
+  margin-top: 8px;
+  font-size: 12px;
+  color: $lineColors[secondaryFaded];
+  margin-right: 20px;
+  white-space: nowrap;
+
+.dayList
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+
+.dayItem
+  cursor: pointer;
+  font-size: .75em;
+  padding: 5px 10px;
+  min-width: 80px;
+  margin: 3px;
+  background-color: $bgColors[secondary];
+  border-radius: 5px;
+  flex-grow: 1;
+
+  &.dayItemOver
+    background-color: darken($bgColors[secondary], 20%);

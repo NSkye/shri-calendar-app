@@ -1,0 +1,131 @@
+@import '~@/style/defaultTheme';
+
+.wrapper
+  outline: none;
+  position: relative;
+  z-index: 1;
+
+.inputWrapper
+  outline: none;
+  width: 100%;
+  background: #fff;
+  border: 2px solid;
+  border-radius: 16px;
+  overflow: hidden;
+  box-sizing: border-box;
+
+.input, .titleSpan
+  padding: 0 16px;
+  height: 30px;
+  line-height: 30px;
+  display: block;
+  font-size: 21px;
+  box-sizing: border-box;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  font-family: $primaryFont;
+  font-size: 21px;
+
+.titleSpan
+  max-width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  position: absolute;
+  visibility: hidden;
+  color: #fff;
+
+.colorBar
+  position: absolute;
+  top: 50%;
+  background: #fff;
+  width: 100%;
+  height: 62px;
+  z-index: -1;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .15);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  padding: 14px;
+  box-sizing: border-box;
+
+.colorsWrapper
+  display: flex;
+
+.colorDotWrapper
+  cursor: pointer;
+  outline: none;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  margin: 2px;
+  border-radius: 50%;
+
+  &.colorDotWrapperSelected
+    box-shadow: 0 0 0 2px #000;
+
+.colorDot
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+
+.colorDotSelected
+  width: 14px;
+  height: 14px;
+  composes: colorDot;
+
+.icons
+  position: absolute;
+  display: flex;
+  right: 15px;
+  bottom: 15px;
+
+.iconSubmit
+  cursor: pointer;
+  width: 20px;
+  height: 15px;
+
+  &.disabled
+    cursor: not-allowed;
+    color: #ccc;
+
+.iconClose
+  cursor: pointer;
+  margin-left: 15px;
+  width: 15px;
+  height: 15px;
+
+.editIcon
+  cursor: pointer;
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  height: 18px;
+  top: 10px;
+
+.minified
+  display: inline-flex;
+
+  .colorBar
+    display: none;
+
+  .inputWrapper
+    background: transparent;
+
+  .titleSpan
+    padding-right: 32px;
+    position: relative;
+    visibility: visible;
+
+  .input
+    position: absolute;
+    visibility: hidden;
+    color: #fff;
+    font-weight: 300;

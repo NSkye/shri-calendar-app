@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>calend</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-10" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="schedule_8" transform="translate(-1088.000000, -229.000000)" fill="currentColor" fill-rule="nonzero">
+            <g id="Group-27" transform="translate(1005.000000, 83.000000)">
+                <g id="Group-10" transform="translate(3.000000, 134.000000)">
+                    <g id="select-m">
+                        <path d="M80,18 L82,18 L82,20 L80,20 L80,18 Z M83,18 L85,18 L85,20 L83,20 L83,18 Z M86,18 L88,18 L88,20 L86,20 L86,18 Z M83,15 L85,15 L85,17 L83,17 L83,15 Z M80,15 L82,15 L82,17 L80,17 L80,15 Z M86,15 L88,15 L88,17 L86,17 L86,15 Z M89,15 L91,15 L91,17 L89,17 L89,15 Z M89,12 L91,12 L91,14 L89,14 L89,12 Z M86,12 L88,12 L88,14 L86,14 L86,12 Z M83,12 L85,12 L85,14 L83,14 L83,12 Z" id="calend"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

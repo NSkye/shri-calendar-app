@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500&subset=cyrillic');
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif; /*font-family: 'Yandex Sans Text', Arial, sans-serif;*/
+}
+
+#app {
+  height: 100%;
+  background: #f6f6f6;
+  overflow-x: hidden;
+}

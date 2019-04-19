@@ -1,0 +1,57 @@
+ .dayBlock
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, .13);
+  padding: 15px 4px;
+
+  &.dateBlockOver
+    background rgba(0,0,0,.15)
+
+  &:last-child
+    border-bottom: none;
+
+.eventsWrapper
+  flex: 1;
+
+.dateBlock
+  padding-right: 10px;
+  width: 80px;
+
+.tagHeader
+  position: relative;
+  padding: 1em 6px 1em 1em;
+  border-bottom: 2px solid rgba(0, 0, 0, .15);
+
+.tagIcons
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 6px;
+  top: 0;
+
+.tagIcon
+  cursor: pointer;
+  margin-left: 20px;
+  color: #cccccc;
+
+  &:hover
+    color: darken(#cccccc, 20%);
+
+.newItem
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  padding: 4px 0;
+  margin: 16px 0;
+  cursor: pointer;
+
+.newItemTitle
+  padding-left: 10px;
+  max-width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+.newTagWrapper
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: 3em;

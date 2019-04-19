@@ -1,0 +1,62 @@
+.tag
+  background: currentColor;
+  position: relative;
+  padding: 5px 10px;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  border-radius: 14px;
+  outline: none;
+  margin-right: 5px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  &:before
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 0 0px currentColor;
+    border-radius: 14px;
+    opacity: .4;
+
+.text
+  color: #fff;
+  max-width: 180px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+.icon
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transition: transform .18s;
+  transform: translate(100%, -50%);
+  padding: 2px;
+
+.iconWrapper
+  cursor: pointer;
+  position: absolute;
+  height: 100%;
+  width: 30px;
+  right: 0;
+  border-radius: 14px;
+  top: 0;
+  overflow: hidden;
+
+@keyframes pulseAnimate
+  from
+    box-shadow: 0 0 0 2px currentColor;
+
+  to
+    box-shadow: 0 0 0 5px currentColor;
+
+.selected
+  &:before
+    animation: pulseAnimate 1s infinite alternate;
+    animation-timing-function: ease-in-out;
+  &:hover
+    .icon
+      transform: translate(-5px, -50%);

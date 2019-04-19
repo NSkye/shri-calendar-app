@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="16px" viewBox="0 0 14 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>trash</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-10" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="schedule_5" transform="translate(-954.000000, -128.000000)" fill="currentColor">
+            <g id="Group-23" transform="translate(273.000000, 120.000000)">
+                <path d="M685.809,11.243 C685.903,10.851 686.077,10.12 686.241,10 L689.792,9.984 C689.959,10.12 690.138,10.861 690.235,11.259 C690.289,11.489 690.351,11.743 690.429,12 L685.611,12 C685.694,11.731 685.755,11.47 685.809,11.243 L685.809,11.243 Z M692.583,12 C692.432,11.829 692.274,11.186 692.179,10.79 C691.911,9.679 691.505,8 689.817,8 L686.241,8 C684.525,8 684.111,9.741 683.864,10.78 C683.772,11.165 683.602,11.883 683.458,12 L681,12 L681,14 L683,14 L683,21.985 C683,23.098 683.887,24 685,24 L690.985,24 C692.098,24 693,23.098 693,21.985 L693,14 L695,14 L695,12 L692.583,12 Z" id="trash"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+@import '~@/style/defaultTheme';
+
+.day
+  font-size: 1.1em;
+  font-weight: 500;
+
+.month
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: .8em;
+
+.dateCurrent
+  color: $lineColors[secondaryCurrent];
+  font-size: 12px;
+
+.dateTop
+  color: $lineColors[primary];
+  position: relative;
+
+  &.current
+    color: $lineColors[secondaryCurrent];
+
+.wrapper
+  display: flex;
+  justify-content: space-between;

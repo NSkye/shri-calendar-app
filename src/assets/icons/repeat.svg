@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>repeat</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-10" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="schedule_8" transform="translate(-768.000000, -248.000000)" fill="currentColor" fill-rule="nonzero">
+            <path d="M780,259.898983 C778.729483,261.195533 776.958688,262 775,262 C771.134007,262 768,258.865993 768,255 C768,251.134007 771.134007,248 775,248 C778.526472,248 781.443881,250.607706 781.929111,254 L780.154877,254 C779.687947,251.578781 777.557541,249.75 775,249.75 C772.100505,249.75 769.75,252.100505 769.75,255 C769.75,257.899495 772.100505,260.25 775,260.25 C776.784059,260.25 778.360273,259.360113 779.308983,258 L776,258 L776,256 L782,256 L782,262 L780,262 L780,259.898983 Z" id="repeat" transform="translate(775.000000, 255.000000) scale(1, -1) translate(-775.000000, -255.000000) "></path>
+        </g>
+    </g>
+</svg>

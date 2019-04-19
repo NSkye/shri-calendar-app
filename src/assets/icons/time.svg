@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>time</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-10" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="schedule_8" transform="translate(-1186.000000, -226.000000)" fill="currentColor" fill-rule="nonzero">
+            <g id="Group-27" transform="translate(1005.000000, 83.000000)">
+                <g id="Group-10" transform="translate(3.000000, 134.000000)">
+                    <g id="select-m" transform="translate(99.000000, 0.000000)">
+                        <path d="M86,23 C82.1340068,23 79,19.8659932 79,16 C79,12.1340068 82.1340068,9 86,9 C89.8659932,9 93,12.1340068 93,16 C93,19.8659932 89.8659932,23 86,23 Z M86,21 C88.7614237,21 91,18.7614237 91,16 C91,13.2385763 88.7614237,11 86,11 C83.2385763,11 81,13.2385763 81,16 C81,18.7614237 83.2385763,21 86,21 Z M89,15 L89,17 L85,17 L85,12 L87,12 L87,15 L89,15 Z" id="time"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
